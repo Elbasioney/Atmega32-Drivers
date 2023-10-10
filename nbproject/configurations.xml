@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="HAL" displayName="HAL" projectFiles="true">
+        <logicalFolder name="7_Segments" displayName="7_Segments" projectFiles="true">
+          <itemPath>HAL/7_Segments/7Seg_Interface.h</itemPath>
+          <itemPath>HAL/7_Segments/7Seg_Private.h</itemPath>
+          <itemPath>HAL/7_Segments/7Seg_Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="KEYPAD" displayName="KEYPAD" projectFiles="true">
+          <itemPath>HAL/KEYPAD/KEYPAD_Private.h</itemPath>
+          <itemPath>HAL/KEYPAD/KEYPAD_Interface.h</itemPath>
+          <itemPath>HAL/KEYPAD/KEYPAD_Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="LCD" displayName="LCD" projectFiles="true">
+          <itemPath>HAL/LCD/LCD_Interface.h</itemPath>
+          <itemPath>HAL/LCD/LCD_Private.h</itemPath>
+          <itemPath>HAL/LCD/LCD_Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="LED" displayName="LED" projectFiles="true">
+          <itemPath>HAL/LED/LED_Private.h</itemPath>
+          <itemPath>HAL/LED/LED_Interface.h</itemPath>
+          <itemPath>HAL/LED/LED_Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="LM35" displayName="LM35" projectFiles="true">
+          <itemPath>HAL/LM35/LM35_Interface.h</itemPath>
+          <itemPath>HAL/LM35/LM35_Private.h</itemPath>
+          <itemPath>HAL/LM35/LM35_Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="MOTOR" displayName="MOTOR" projectFiles="true">
+          <itemPath>HAL/MOTOR/MOTOR_Interface.h</itemPath>
+          <itemPath>HAL/MOTOR/MOTOR_Private.h</itemPath>
+          <itemPath>HAL/MOTOR/MOTOR_Config.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="LIB" displayName="LIB" projectFiles="true">
+        <itemPath>LIB/STD_TYPES.h</itemPath>
+        <itemPath>LIB/BIT_MATH.h</itemPath>
+        <itemPath>LIB/Helper_Functions.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="MCAL" displayName="MCAL" projectFiles="true">
+        <logicalFolder name="ADC" displayName="ADC" projectFiles="true">
+          <itemPath>MCAL/ADC/ADC_Interface.h</itemPath>
+          <itemPath>MCAL/ADC/ADC_Private.h</itemPath>
+          <itemPath>MCAL/ADC/ADC_Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="DIO" displayName="DIO" projectFiles="true">
+          <itemPath>MCAL/DIO/DIO_Config.h</itemPath>
+          <itemPath>MCAL/DIO/DIO_Interface.h</itemPath>
+          <itemPath>MCAL/DIO/DIO_Private.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="GIE" displayName="GIE" projectFiles="true">
+          <itemPath>MCAL/GIE/GIE_Config.h</itemPath>
+          <itemPath>MCAL/GIE/GIE_Private.h</itemPath>
+          <itemPath>MCAL/GIE/GIE_Interface.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="INTERRUPT" displayName="INTERRUPT" projectFiles="true">
+          <itemPath>MCAL/INTERRUPT/INT_Config.h</itemPath>
+          <itemPath>MCAL/INTERRUPT/INT_Private.h</itemPath>
+          <itemPath>MCAL/INTERRUPT/INT_Interface.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="PORT" displayName="PORT" projectFiles="true">
+          <itemPath>MCAL/PORT/PORT_Config.h</itemPath>
+          <itemPath>MCAL/PORT/PORT_Interface.h</itemPath>
+          <itemPath>MCAL/PORT/PORT_Private.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="SLEEP" displayName="SLEEP" projectFiles="true">
+          <itemPath>MCAL/SLEEP/SLEEP_Config.h</itemPath>
+          <itemPath>MCAL/SLEEP/SLEEP_Interface.h</itemPath>
+          <itemPath>MCAL/SLEEP/SLEEP_Private.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="SPI" displayName="SPI" projectFiles="true">
+          <itemPath>MCAL/SPI/SPI_Private.h</itemPath>
+          <itemPath>MCAL/SPI/SPI_Interface.h</itemPath>
+          <itemPath>MCAL/SPI/SPI_Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="TIMER0" displayName="TIMER0" projectFiles="true">
+          <itemPath>MCAL/TIMER0/TMR0_Interface.h</itemPath>
+          <itemPath>MCAL/TIMER0/TMR0_Config.h</itemPath>
+          <itemPath>MCAL/TIMER0/TMR0_Private.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="TIMER1" displayName="TIMER1" projectFiles="true">
+          <itemPath>MCAL/TIMER1/TMR1_Interface.h</itemPath>
+          <itemPath>MCAL/TIMER1/TMR1_Private.h</itemPath>
+          <itemPath>MCAL/TIMER1/TMR1_Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="TWI" displayName="TWI" projectFiles="true">
+          <itemPath>MCAL/TWI/TWI_Private.h</itemPath>
+          <itemPath>MCAL/TWI/TWI_Interface.h</itemPath>
+          <itemPath>MCAL/TWI/TWI_Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="UART" displayName="UART" projectFiles="true">
+          <itemPath>MCAL/UART/UART_Config.h</itemPath>
+          <itemPath>MCAL/UART/UART_Private.h</itemPath>
+          <itemPath>MCAL/UART/UART_Interface.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="WDT" displayName="WDT" projectFiles="true">
+          <itemPath>MCAL/WDT/WDT_Interface.h</itemPath>
+          <itemPath>MCAL/WDT/WDT_Config.h</itemPath>
+          <itemPath>MCAL/WDT/WDT_Private.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="OS" displayName="OS" projectFiles="true">
+        <itemPath>OS/OS_Interface.h</itemPath>
+        <itemPath>OS/OS_Private.h</itemPath>
+        <itemPath>OS/OS_Config.h</itemPath>
+      </logicalFolder>
+      <itemPath>main.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="HAL" displayName="HAL" projectFiles="true">
+        <logicalFolder name="7_Segments" displayName="7_Segments" projectFiles="true">
+          <itemPath>HAL/7_Segments/7Seg_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="KEYPAD" displayName="KEYPAD" projectFiles="true">
+          <itemPath>HAL/KEYPAD/KEYPAD_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="LCD" displayName="LCD" projectFiles="true">
+          <itemPath>HAL/LCD/LCD_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="LED" displayName="LED" projectFiles="true">
+          <itemPath>HAL/LED/LED_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="LM35" displayName="LM35" projectFiles="true">
+          <itemPath>HAL/LM35/LM35_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="MOTOR" displayName="MOTOR" projectFiles="true">
+          <itemPath>HAL/MOTOR/MOTOR_App.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="LIB" displayName="LIB" projectFiles="true">
+        <itemPath>LIB/Helper_Functions.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="MCAL" displayName="MCAL" projectFiles="true">
+        <logicalFolder name="ADC" displayName="ADC" projectFiles="true">
+          <itemPath>MCAL/ADC/ADC_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="DIO" displayName="DIO" projectFiles="true">
+          <itemPath>MCAL/DIO/DIO_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="GIE" displayName="GIE" projectFiles="true">
+          <itemPath>MCAL/GIE/GIE_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="INTERRUPT" displayName="INTERRUPT" projectFiles="true">
+          <itemPath>MCAL/INTERRUPT/INT_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="PORT" displayName="PORT" projectFiles="true">
+          <itemPath>MCAL/PORT/PORT_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="SLEEP" displayName="SLEEP" projectFiles="true">
+          <itemPath>MCAL/SLEEP/SLEEP_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="SPI" displayName="SPI" projectFiles="true">
+          <itemPath>MCAL/SPI/SPI_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="TIMER0" displayName="TIMER0" projectFiles="true">
+          <itemPath>MCAL/TIMER0/TMR0_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="TIMER1" displayName="TIMER1" projectFiles="true">
+          <itemPath>MCAL/TIMER1/TMR1_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="TWI" displayName="TWI" projectFiles="true">
+          <itemPath>MCAL/TWI/TWI_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="UART" displayName="UART" projectFiles="true">
+          <itemPath>MCAL/UART/UART_App.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="WDT" displayName="WDT" projectFiles="true">
+          <itemPath>MCAL/WDT/WDT_App.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="OS" displayName="OS" projectFiles="true">
+        <itemPath>OS/OS_App.c</itemPath>
+      </logicalFolder>
+      <itemPath>main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>MCAL</Elem>
+    <Elem>LIB</Elem>
+    <Elem>HAL</Elem>
+    <Elem>OS</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATmega32</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>noID</platformTool>
+        <languageToolchain>XC8</languageToolchain>
+        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="ATmega_DFP" vendor="Microchip" version="3.0.158"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <HI-TECH-COMP>
+        <property key="additional-warnings" value="true"/>
+        <property key="asmlist" value="true"/>
+        <property key="call-prologues" value="false"/>
+        <property key="default-bitfield-type" value="true"/>
+        <property key="default-char-type" value="true"/>
+        <property key="define-macros" value=""/>
+        <property key="disable-optimizations" value="false"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="favor-optimization-for" value="-speed,+space"/>
+        <property key="garbage-collect-data" value="true"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="identifier-length" value="255"/>
+        <property key="local-generation" value="false"/>
+        <property key="operation-mode" value="free"/>
+        <property key="opt-xc8-compiler-strict_ansi" value="false"/>
+        <property key="optimization-assembler" value="true"/>
+        <property key="optimization-assembler-files" value="true"/>
+        <property key="optimization-debug" value="false"/>
+        <property key="optimization-invariant-enable" value="false"/>
+        <property key="optimization-invariant-value" value="16"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="optimization-speed" value="false"/>
+        <property key="optimization-stable-enable" value="false"/>
+        <property key="preprocess-assembler" value="true"/>
+        <property key="short-enums" value="true"/>
+        <property key="tentative-definitions" value="-fno-common"/>
+        <property key="undefine-macros" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="verbose" value="false"/>
+        <property key="warning-level" value="-3"/>
+        <property key="what-to-do" value="ignore"/>
+      </HI-TECH-COMP>
+      <HI-TECH-LINK>
+        <property key="additional-options-checksum" value=""/>
+        <property key="additional-options-code-offset" value=""/>
+        <property key="additional-options-command-line" value=""/>
+        <property key="additional-options-errata" value=""/>
+        <property key="additional-options-extend-address" value="false"/>
+        <property key="additional-options-trace-type" value=""/>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="backup-reset-condition-flags" value="false"/>
+        <property key="calibrate-oscillator" value="false"/>
+        <property key="calibrate-oscillator-value" value="0x3400"/>
+        <property key="clear-bss" value="true"/>
+        <property key="code-model-external" value="wordwrite"/>
+        <property key="code-model-rom" value=""/>
+        <property key="create-html-files" value="false"/>
+        <property key="data-model-ram" value=""/>
+        <property key="data-model-size-of-double" value="24"/>
+        <property key="data-model-size-of-double-gcc" value="no-short-double"/>
+        <property key="data-model-size-of-float" value="24"/>
+        <property key="data-model-size-of-float-gcc" value="no-short-float"/>
+        <property key="display-class-usage" value="false"/>
+        <property key="display-hex-usage" value="false"/>
+        <property key="display-overall-usage" value="true"/>
+        <property key="display-psect-usage" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="format-hex-file-for-download" value="false"/>
+        <property key="initialize-data" value="true"/>
+        <property key="input-libraries" value="libm"/>
+        <property key="keep-generated-startup.as" value="false"/>
+        <property key="link-in-c-library" value="true"/>
+        <property key="link-in-c-library-gcc" value=""/>
+        <property key="link-in-peripheral-library" value="false"/>
+        <property key="managed-stack" value="false"/>
+        <property key="opt-xc8-linker-file" value="false"/>
+        <property key="opt-xc8-linker-link_startup" value="false"/>
+        <property key="opt-xc8-linker-serial" value=""/>
+        <property key="program-the-device-with-default-config-words" value="true"/>
+        <property key="remove-unused-sections" value="true"/>
+      </HI-TECH-LINK>
+      <XC8-CO>
+        <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
+      </XC8-CO>
+      <XC8-config-global>
+        <property key="advanced-elf" value="true"/>
+        <property key="constdata-progmem" value="true"/>
+        <property key="gcc-opt-driver-new" value="true"/>
+        <property key="gcc-opt-std" value="-std=c99"/>
+        <property key="gcc-output-file-format" value="dwarf-3"/>
+        <property key="mapped-progmem" value="false"/>
+        <property key="omit-pack-options" value="false"/>
+        <property key="omit-pack-options-new" value="1"/>
+        <property key="output-file-format" value="-mcof,+elf"/>
+        <property key="smart-io-format" value=""/>
+        <property key="stack-size-high" value="auto"/>
+        <property key="stack-size-low" value="auto"/>
+        <property key="stack-size-main" value="auto"/>
+        <property key="stack-type" value="compiled"/>
+        <property key="user-pack-device-support" value=""/>
+        <property key="wpo-lto" value="false"/>
+      </XC8-config-global>
+    </conf>
+  </confs>
+</configurationDescriptor>
